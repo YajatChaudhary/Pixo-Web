@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+#outer-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./images/colin-lloyd-7DlP-W1rC6I-unsplash\ blur.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+#main-div{
+    display: flex;
+    flex-direction:row;
+    height: 80%;
+    width: 65rem ;
+}
+#left-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./images/colin-lloyd-7DlP-W1rC6I-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    
+}
+#login-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#login-social p{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.609);
+    font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Roboto', sans-serif;font-family: "Lato", sans-serif;
+margin-top: -10px;
+}
+#login{
+    font-size: 1.2rem;
+}
+#facebook{
+    border: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Roboto', sans-serif;font-family: "Lato", sans-serif;
+    border-radius: 50px;
+    color: white;
+    width: auto;
+    height: 40px;
+    background-color: rgb(45, 45, 223);
+    ;
+    background-size: 200% 100%;
+    transition:all 2s ease;
+    letter-spacing: 0.5px;
+}
+#facebook i{
+    margin: 2px;
+}
+#google{
+    border: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Roboto', sans-serif;font-family: "Lato", sans-serif;
+    border-radius: 50px;
+    color: white;
+    width: auto;
+    height: 40px;
+    background-color: rgb(238, 53, 53);
+    background-size: 200% 100%;
+    transition:all 2s ease;
+    letter-spacing: 0.5px;
+}
+#google i{
+    margin-right: 5px;
+}
+#apple{
+    border: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Roboto', sans-serif;font-family: "Lato", sans-serif;
+    border-radius: 50px;
+    color: white;
+    width: auto;
+    height: 40px;
+    background-color: black;
+    background-size: 200% 100%;
+    transition:all 2s ease;
+    letter-spacing: 0.5px;
+}
+#apple i{
+    margin-right: 5px;;
+}
+#facebook:hover{
+    background-color: rgb(71, 96, 207);
+    color: white;
+}
+#google:hover{
+    background-color: rgb(216, 109, 109);
+    color: white;
+}
+#apple:hover{
+    background-color: rgb(57, 62, 77);
+    color: white;
+}
+#login-social button{
+height: 2.5rem;
+width: 10rem;
+border-radius: 1.15rem;
+margin: 10px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+letter-spacing: 0.5px;
+}
+#right-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    font-size: large;
+}
+
+#firstname{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#lastname{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#emailname{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#passwordname{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#cpasswordname{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#tandc{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#register{
+    border: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 50px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background: black;
+    background-size: 200% 100%;
+    transition:all 2s ease;
+}
+#register:hover{
+    background-color: rgb(200, 195, 195);
+    color: black;
+}
+@media screen and (max-length:800px) {
+    #main-div{
+        flex-wrap: wrap;
+    }
+}
+

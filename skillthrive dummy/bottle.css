@@ -1,0 +1,255 @@
+#header-portion {
+  margin-top: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 0;
+
+}
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.navbar ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+.navbar ul li a:hover {
+  color: #555;
+}
+
+.navbar a {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  color: black;
+  margin: 12px;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}   
+.navbar ul li a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .navbar ul li a:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  .navbar ul li a:hover:after {
+    -webkit-animation: circle 1.5s ease-in forwards;
+  }
+  @-webkit-keyframes circle {
+    0% {
+      width: 1px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      height: 1px;
+      z-index: -1;
+      background: rgb(253, 231, 104);
+      border-radius: 100%;
+    }
+    100% {
+      background: hsl(51, 100%, 54%);
+      height: 5000%;
+      width: 5000%;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0;
+    }
+  }
+#contact{
+    border: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background: black;
+    background-size: 200% 100%;
+    transition:all 2s ease;
+}
+#contact:hover{
+    background-color: rgb(200, 195, 195);
+    color: black;
+}
+#saturnbird{
+    font-family: "Lato", sans-serif;
+    font-weight:bolder;
+    font-size:large;
+    letter-spacing: 0.5px;
+}
+#content{
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    margin-top: 10px;
+    width:82%;
+    
+}
+#box1{
+    overflow: wrap;
+    width: 33%;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+
+#bottle{
+    font-family: 'Martel', serif;
+font-family: 'Tinos', serif;
+    font-size: 5rem;
+}
+#which{
+    font-family: 'Martel', serif;
+font-family: 'Tinos', serif;
+    font-size: 5rem;  
+    margin-top: -30px;
+    position: relative;
+}
+#arc-image{
+    position: absolute;
+    left: 350px;
+    top: 140px;
+}
+#arc-image img{
+    height: 125px;
+    width: 125px;
+}
+#needed{
+    font-family: 'Martel', serif;
+font-family: 'Tinos', serif;
+    font-size: 8rem;
+    color: hsl(51, 100%, 54%);
+    margin-top: -50px;
+}
+#everyday{
+    font-family: 'Martel', serif;
+font-family: 'Tinos', serif;
+    font-size: 5rem;
+    margin-top: -40px;
+    margin-left: 70px;
+}   
+#paragraph{
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 40px;
+    width: 400px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.835);
+}
+#box1 button{
+    border: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background: black;
+    background-size: 200% 100%;
+    transition:all 2s ease;
+    margin-top: 30px;
+}
+#box1 button:hover{
+    background-color: rgb(200, 195, 195);
+    color: black;
+    
+}
+#box2{
+    height: 70vh;
+    width: 32vw;
+    border: 1px solid rgba(0, 0, 0, 0.856);
+    margin-right: -300px;
+    margin-top: 50px;
+
+}
+#border-image{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height:70vh;
+    width: 32vw;
+    background-image: url(./images/cheezelooker\ -\ SATURNBIRD\ 06.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+#arc-image-box2{
+    position: relative;
+    background-image: url(./images/without\ background\ arc.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 170px;
+    width: 170px;
+    left: 375px;
+    top: -90px;
+
+}
+.last-section{
+    height: 15vh;
+    width: 75vw;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.last-section img{
+    height: 100px;
+    position: relative;
+    left:45%;
+    top: -70px;
+
+}
+.last-section i{
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+

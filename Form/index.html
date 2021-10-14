@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/910d8b8a4c.js" crossorigin="anonymous"></script>
+    <title>Form</title>
+</head>
+
+<body>
+    <div id="outer-div">
+    <div id="main-div">
+        <div id="left-div">
+            <div id="login-social">
+                <p>Login to your account</p> 
+                
+                <button id="facebook"><i class="fab fa-facebook-f"></i> Login with Facebook</button>
+                <button id="google"><i class="fab fa-google"></i> Login with Google</button>
+                <button id="apple"><i class="fab fa-apple"></i>Login with Apple</button>
+            </div>
+
+
+        </div>
+        <div id="right-div">
+            <form id="myForm" name="myForm" onsubmit="return validation()">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname"size="40"><br>
+                <span id="firstname"></span><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname"size="40"><br>
+                <span id="lastname"></span><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"size="40"><br>
+                <span id="emailname"></span><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password"size="40"><br>
+                <span id="passwordname"></span><br>
+                <label for="cpassword">Confirm Password</label><br>
+                <input type="password" id="cpassword" name="cpassword"size="40"><br>
+                <span id="cpasswordname"></span><br>
+                <input type="checkbox" id="tandc" name="tandc">
+                <label for="tandc"><b>I agree to the <a href="#">Terms and Conditions</a></b></label><br>
+                <input type="submit" id="register" name="register" value="Register">
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="forms.js"></script>
+</html>
