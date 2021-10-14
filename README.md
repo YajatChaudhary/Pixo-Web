@@ -5,4 +5,4 @@
 [3. Link to Skillthrive dummy](https://yajatchaudhary.github.io/Pixo-Web/skillthrive%20dummy/)\
 [4. Link to Form](https://yajatchaudhary.github.io/Pixo-Web/Form/)\
 [5. Link to Photo Editor](https://yajatchaudhary.github.io/Pixo-Web/photo%20editor/)\
-[5. Link to Flappy Bird](https://yajatchaudhary.github.io/Pixo-Web/photo%20editor/)
+[6. Link to Flappy Bird](https://yajatchaudhary.github.io/Pixo-Web/Flappy%20Bird/)
