@@ -19,6 +19,7 @@ clipboard.addEventListener('click', () => {
 	const password = resultElement.innerText;
 	
 	if(password==false){
+		alert('Firstly click on Generate Password');
 	return -1; 
 	}
 	
